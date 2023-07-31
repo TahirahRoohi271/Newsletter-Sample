@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-color: #00477b;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.content{
+	width: 100%;
+	height: auto;
+	background-color: #00477b;
+	padding: 30px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content h3{
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.content p{
+	font-size: 10px;
+	font-weight: 200;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.content form{
+	width: 500px;
+	height: 55px;
+	margin-top: 10px;
+	background-color: #fff;
+	border-radius: 100px;
+	display: flex;
+}
+
+.content form input{
+	flex: 1;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding-left: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #36454f;
+}
+
+.content form button{
+	width: 100px;
+	border-radius: 100px;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	background-color: #ed4e6a;
+	color: #fff;
+	margin: 4px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.content form button:hover{
+	background-color: #e24c66;
+}
+
+.social-links .bx{
+	font-size: 35px;
+	margin: 20px 10px 0 10px;
+	color: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.social-links .bx:hover{
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.content-2 {
+	height: 50px;
+	padding: 0 20px;
+	background-color: #023c66;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content-2 p{
+	font-size: 12px;
+	font-weight: 200;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.content-2 p a{
+	color: #ed4e6a;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.content-2 ul li{
+	list-style: none;
+	display: inline;
+}
+
+.content-2 ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 300;
+	margin-left: 15px;
+	color: rgba(255, 255, 255, 0.5);
+	transition: 0.5s;
+}
+
+.content-2 ul li a:hover{
+	color: rgba(255, 255, 255, 1);
+}
